@@ -1,7 +1,11 @@
-package com.ddkzhanghao.leetcode;
+package com.ddkzhanghao.leetcode.course;
 
 import com.ddkzhanghao.util.ArrayUtils;
 
+/**
+ * 零矩阵
+ * 编写一种算法，若M × N矩阵中某个元素为0，则将其所在的行与列清零。
+ */
 public class ZeroMatrix {
     public static void main(String[] args) {
         int[][] matrix = {

@@ -1,8 +1,12 @@
-package com.ddkzhanghao.leetcode;
+package com.ddkzhanghao.leetcode.course;
 
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 对角线遍历
+ *  给你一个大小为 m x n 的矩阵 mat ，请以对角线遍历的顺序，用一个数组返回这个矩阵中的所有元素。
+ */
 public class TraverseMatrix {
     public static void main(String[] args) {
         int[][] matrix = {
