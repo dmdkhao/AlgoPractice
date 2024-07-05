@@ -12,8 +12,9 @@ package com.ddkzhanghao.leetcode.course;
  */
 public class InsertElement {
     public static void main(String[] args) {
-        int[] nums = {1,3,5,6};
-        System.out.println(searchInsert(nums,7));
+        int[] nums = {1, 3, 5, 6};
+        System.out.println(searchInsert2(nums, 3));
+//        System.out.println(3+(5-3)/2);
     }
 
     public static int searchInsert(int[] nums, int target) {
@@ -21,10 +22,35 @@ public class InsertElement {
             if (nums[i] == target) {
                 return i;
             }
-            if(target<nums[i]) {
+            if (target < nums[i]) {
                 return i;
             }
         }
         return nums.length;
+    }
+
+    /**
+     * 二分法
+     *
+     * @param nums
+     * @param target
+     * @return
+     */
+    public static int searchInsert2(int[] nums, int target) {
+        int left = 0;//3
+        int right = nums.length;//5
+        while (left <= right) {
+            int mid = left + (right-left)/ 2;//2
+            if (target == nums[mid]) {
+                return mid;
+            }
+            if (target < nums[mid]) {
+                right = mid-1;
+            }
+            if (target > nums[mid]) {
+                left = mid+1;
+            }
+        }
+        return left;
     }
 }
