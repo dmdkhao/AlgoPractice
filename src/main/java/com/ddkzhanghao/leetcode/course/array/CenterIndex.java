@@ -1,4 +1,4 @@
-package com.ddkzhanghao.leetcode.course;
+package com.ddkzhanghao.leetcode.course.array;
 
 /**
  * 寻找数组的中心索引

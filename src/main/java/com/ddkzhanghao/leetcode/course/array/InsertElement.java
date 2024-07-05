@@ -1,4 +1,4 @@
-package com.ddkzhanghao.leetcode.course;
+package com.ddkzhanghao.leetcode.course.array;
 
 /**
  * 搜索插入位置

@@ -1,4 +1,4 @@
-package com.ddkzhanghao.leetcode.course;
+package com.ddkzhanghao.leetcode.course.array;
 
 import com.ddkzhanghao.util.ArrayUtils;
 
