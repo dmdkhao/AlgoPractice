@@ -16,7 +16,7 @@ import com.ddkzhanghao.util.ArrayUtils;
  *  n = 3
  *  matrix[i][j] --> matrix[j][n-i-1]
  */
-public class Question48 {
+public class Quiz48 {
     public static void main(String[] args) {
         int[][] matrix = {
                 {1, 2, 3},
